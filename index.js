@@ -245,6 +245,8 @@ class Users {
                 this.modalObj.hide()
                 this.modalObj.dispose()
                 this.modalObj = null
+                let child = document.getElementById('myModal')
+                child.parentNode.removeChild(child)
 
             }
 
@@ -344,6 +346,8 @@ class Users {
                 this.modalObj.hide()
                 this.modalObj.dispose()
                 this.modalObj = null
+                let child = document.getElementById('editmyModal')
+                child.parentNode.removeChild(child)
                 
             }
         });
