@@ -39,7 +39,8 @@ class Users {
     }
 
     async updateData(id, updateObj) {
-      const response = await fetch('${this.apiUrl}/${id}', {
+        console.log('${this.apiUrl}/${id}')
+      const response = await fetch(this.apiUrl +"/" +id, {
         method: 'PUT',
         headers: {'Content-Type': 'application/json'},
         body: JSON.stringify(updateObj)
@@ -49,7 +50,7 @@ class Users {
     }
 
     async deleteData(id) {
-      const response = await fetch('${this.apiUrl}/${id}', {
+      const response = await fetch(this.apiUrl +"/" +id, {
         method: 'DELETE'
       });
       return await response;
