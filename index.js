@@ -160,7 +160,7 @@ class Users {
         });
     
         editCell.appendChild(editButton);
-    
+        
         let deleteCell = row.insertCell(5);
         let deleteButton = document.createElement('button');
         deleteButton.innerText = 'Delete';
