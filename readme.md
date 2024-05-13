@@ -1,6 +1,7 @@
 # User Details CRUD Operations
 
 Check out the live demo [here](https://magical-otter-db691c.netlify.app/).
+![image](https://github.com/chandra-kiran2002/User-Details-CRUD-Operations/assets/90372447/10d73262-8ce1-4efb-a496-d5cb357e7f20)
 
 This web application allows users to perform CRUD operations (Create, Read, Update, Delete) on user details using Bootstrap, jQuery, and a mock API. The application provides a straightforward user interface with a table displaying existing user data. Users can interact with the application through intuitive modals for adding, editing, and deleting entries.
 
